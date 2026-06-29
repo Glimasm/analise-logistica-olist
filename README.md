@@ -60,15 +60,18 @@ Dataset:
 olist-business-analysis/
 
 ├── data/
-│   └── *.csv
+│   └── olist_customers_dataset.csv
+│   └── olist_order_items_dataset.csv
+│   └── olist_order_reviews_dataset.csv
+│   └── olist_orders_dataset.csv
 │
 ├── notebooks/
-│   └── 01_tempo_vs_frete.ipynb
+│   └── tempo_vs_frete.ipynb
 │
 ├── images/
-│   ├── fig01_tempo_entrega.png
-│   ├── fig02_frete.png
-│   └── fig03_logistica.png
+│   ├── A nota média diminui à medida que o custo do frete aumenta.png
+│   ├── Fretes mais caros não estão entregando mais rapidamente.png
+│   └── Quanto maior o tempo de entrega.png
 │
 ├── powerbi/
 │   └── dashboard.pbix
